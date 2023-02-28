@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV-Maxime-VIGNON</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="mobile">
+      <div class="nav-wrapper grey">
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="cv.html">Home</a></li>
+          <li><a href="about.html">About me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <br />
+    <br />
+    <br />
+
+    <div class="desktop fixed-action-btn">
+      <a class="btn-floating btn-large grey darken-2">
+        <i class="large material-icons">dehaze</i>
+      </a>
+      <ul>
+        <li>
+          <a href="cv.html" class="btn-floating grey"
+            ><i class="material-icons">home</i></a
+          >
+        </li>
+        <li>
+          <a href="about.html" class="btn-floating grey darken-2"
+            ><i class="material-icons">business_center</i></a
+          >
+        </li>
+        <li>
+          <a href="contact.html" class="btn-floating grey"
+            ><i class="material-icons">person</i></a
+          >
+        </li>
+      </ul>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var elems = document.querySelectorAll(".fixed-action-btn");
+        var instances = M.FloatingActionButton.init(elems, {
+          direction: "left",
+          hoverEnabled: false,
+        });
+      });
+    </script>
+
+    <div class="container row center-align">
+      <h1 class="grey-text police3 police2">Hi !</h1>
+      <h2 class="police3 police2 grey-text">I am Maxime Vignon</h2>
+      <h3 class="grey-text text-lighten-1 police2 police3">
+        I am a student at Epitech Lyon
+      </h3>
+    </div>
+
+    <div class="home2 home3"></div>
+  </body>
+</html>
