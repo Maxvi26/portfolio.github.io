@@ -1,90 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact-Maxime-VIGNON</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css"
-    />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  </head>
 
-  <body class="grey lighten-1">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact-Maxime-VIGNON</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
 
-    <nav class="mobile">
-      <div class="nav-wrapper grey">
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About me</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+<body class="grey lighten-1">
 
-    <br>
-    <br>
-    <br>
-
-    <div class="desktop fixed-action-btn">
-      <a class="btn-floating btn-large grey darken-2">
-        <i class="large material-icons">dehaze</i>
-      </a>
-      <ul>
-        <li>
-          <a href="index.html" class="btn-floating grey"><i class="material-icons">home</i></a>
-        </li>
-        <li>
-          <a href="about.html" class="btn-floating grey darken-2 "
-            ><i class="material-icons">business_center</i></a
-          >
-        </li>
-        <li>
-          <a href="contact.html" class="btn-floating grey"><i class="material-icons">person</i></a>
-        </li>
+  <nav class="mobile">
+    <div class="nav-wrapper grey">
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        var elems = document.querySelectorAll(".fixed-action-btn");
-        var instances = M.FloatingActionButton.init(elems, {
-          direction: "left",
-          hoverEnabled: false,
-        });
-      });
-    </script>
-<div class="box3">
-      <div class="card grey lighten-2 grey-text">
-        <div class="row">
-          <div class="fit-picture3 box">
-            <img class="circle responsive-img"src="picture/me.png" alt="profil pic"/>
-            </div>
-            <div class="box"><p>Tel: <b class="blue-text">+33 7 71 13 26 12</b></p></div>
-            <div class="box"><p>eMail: <b class="blue-text">vignon.maxime@yahoo.fr</b></p></div>
-          </div>
-            <div class="grey lighten-1 card-action">
-                <div class="box">
-                  <a target="_blank" href="https://www.linkedin.com/in/maximevignon/" class="button color one">Linkedin</a>
-                  </div>
-              </div>
-        </div>
-  <div class="box2">
-    <h5>Available throughout the<br><b>Lyon region and on the Geneva side</b>.<br>Also available for remote work,<br>the Internet has no borders.</h5><span style="padding-left:50px;"></span>
-    <div class="box">
-    <h5>Download my CV :<h5>
-    <a href="cv-pdf/CV_VIGNON.pdf" target="_blank" download="CV_VIGNON">&nbsp;&nbsp;&nbsp;&nbsp;
-    <button class="styled" type="button">Download</button>
+  </nav>
+
+  <br>
+  <br>
+  <br>
+
+  <div class="desktop fixed-action-btn">
+    <a class="btn-floating btn-large grey darken-2">
+      <i class="large material-icons">dehaze</i>
     </a>
+    <ul>
+      <li>
+        <a href="index.html" class="btn-floating grey"><i class="material-icons">home</i></a>
+      </li>
+      <li>
+        <a href="about.html" class="btn-floating grey darken-2 "><i class="material-icons">business_center</i></a>
+      </li>
+      <li>
+        <a href="cv.html" class="btn-floating grey darken-2 "><i class="material-icons">folder_shared</i></a>
+      </li>
+      <li>
+        <a href="contact.html" class="btn-floating grey"><i class="material-icons">person</i></a>
+      </li>
+    </ul>
   </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var elems = document.querySelectorAll(".fixed-action-btn");
+      var instances = M.FloatingActionButton.init(elems, {
+        direction: "left",
+        hoverEnabled: false,
+      });
+    });
+  </script>
+  <div class="box3">
+    <div class="card grey lighten-2 grey-text" style="width: 40vh;">
+      <div class="row">
+        <div class="box">
+          <img class="box4 box5" style="padding: 5%; width: 20vh;" src="picture/me1.png" alt="profil pic" />
+        </div>
+        <div class="box">
+          <p>Tel: <b class="blue-text">+33 7 71 13 26 12</b></p>
+        </div>
+        <div class="box">
+          <p>eMail: <b class="blue-text">vignon.maxime@yahoo.fr</b></p>
+        </div>
+      </div>
+      <div class="grey lighten-1 card-action">
+        <div class="box">
+          <a target="_blank" href="https://www.linkedin.com/in/maximevignon/" class="button color one">Linkedin</a>
+        </div>
+      </div>
+    </div>
+    <div class="box2">
+      <h5>Available throughout the<br><b>Lyon region and on the Geneva side</b>.<br>Also available for remote
+        work,<br>the Internet has no borders.</h5><span style="padding-left:50px;"></span>
+      <div class="box">
+        <h5>Download my CV :<h5>
+            <a href="cv-pdf/CV_VIGNON.pdf" target="_blank" download="CV_VIGNON">&nbsp;&nbsp;&nbsp;&nbsp;
+              <button class="styled" type="button">Download</button>
+            </a>
+      </div>
+    </div>
   </div>
-</div>
-      
-  </body>
+
+</body>
+
 </html>
