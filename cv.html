@@ -5,11 +5,14 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>about-Maxime-VIGNON</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="author" content="Maxime Vignon" />
+  <title>Maxime Vignon | Software Developer</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body class="home">
@@ -18,9 +21,9 @@
     <div class="nav-wrapper black">
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="cv.html">CV</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="portfolio.html">Projects</a></li>
+        <li><a href="cv.html" aria-current="page">Resume</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
@@ -47,8 +50,8 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      var elems = document.querySelectorAll(".fixed-action-btn");
-      var instances = M.FloatingActionButton.init(elems, {
+      const elems = document.querySelectorAll(".fixed-action-btn");
+      M.FloatingActionButton.init(elems, {
         direction: "left",
         hoverEnabled: false,
       });
@@ -61,23 +64,39 @@
 
     <div class="box2 opac white-text black">
       <div class="brd">
-        <h6><i class="material-icons">location_on</i> 69008 Lyon
+        <h6><i class="material-icons">location_on</i> Marseille
           <!-- <br><br><i class="material-icons">call</i> +33 7 71 13 26 12 
       <br><br><i class="material-icons">email</i> vignon.maxime@yahoo.fr  -->
           <br><br><i class="material-icons">cake</i> 26/12/2002
           <br><br><i class="material-icons">directions_car</i> Permis B
         </h6>
       </div>
-      <div class="brd">
-        <h5>I'm a student at Epitech and alternating at Ineo Tinea</h5>
+    </div>
+    <div class="row box3 opac grey lighten-2">
+      <div class="opac grey lighten-2 space2"><br>
+        <h4>Profil</h4><br>
+      </div>
+      <div class="opac grey lighten-2 ligne">
+        <h5>
+          <br><br>Software developer specializing in industrial IT,
+            with expertise in automation and the development
+            of applications in complex technical environments.
+            Recognized for my ability to adapt quickly and
+            contribute to a variety of projects.
+            A year of experience in Australia allowed me to
+            improve my English and become more comfortable in
+            international environments.
+        </h5>
+        <br><br>
       </div>
     </div>
+    <br><br>
     <div class="row box3 opac black">
       <div class="opac space2 white-text black"><br><br><br>
         <h4>Formation </h4><br>
       </div>
       <div class="opac white-text black ligne">
-        <h5><b>Master's Degree in Software Architecture & Application Development</b> Since - 09/2022 <br> Epitech, Lyon
+        <h5><b>Master's Degree in Software Architecture & Application Development</b> 07/2022 - 07/2025 <br> Epitech, Lyon
           - 69007
           <br><br><b>DUT in Electrical Engineering and Industrial Computing </b>09/2020 - <br> 06/2022 <br>University
           Claude Bernard, site gratte-ciel, IUT Lyon 1
@@ -92,13 +111,11 @@
         <h4>Career </h4><br>
       </div>
       <div class="opac grey lighten-2 ligne">
-        <h5><b>Industrial IT - Apprentice</b> Since - 09/2022 <br>Ineo Tinea ENGIE - Lyon 69007
-          <br><br><b>Industrial computing and automation - Intern </b> 04/2022 - 06/2022<br>Ineo Tinea ENGIE - Lyon
+        <h5><b>Industrial IT - Apprentice</b> Since - 09/2022 <br>Equans Digital - Lyon 69007
+          <br><br><b>Industrial computing and automation - Intern </b> 04/2022 - 06/2022<br>Equans Digital - Lyon
           69007
-          <br><br><b>Machining technician - Intern</b> 04/2019 <br>Production school - Lyon 69009
           <br><br><b>Order Picker (Seasonal worker)</b> 07/2022 <br>Rhenus logistique - Chaponnay 69970
-          <br><br><b>Sales Assistant (Seasonal worker)</b> 07/2021-08/2021 <br>Grand frais - Ferney-voltaire 01210
-          <br><br><b>Restaurant Assistant (Seasonal worker)</b> 09/2021 <br>Bacchus & Pool - Vienne 38200
+          <br><br><b>Machining technician - Intern</b> 04/2019 <br>Production school - Lyon 69009
         </h5>
         <br><br>
       </div>
@@ -175,10 +192,10 @@
   <br><br><br><br><br><br><br>
   <div class="col s12 center-align grey lighten-2 grey-text text-darken-2">
     <br><br>
-    <h5>Download my CV :<h5>
-        <a href="cv-pdf/CV_VIGNON.pdf" target="_blank" download="CV_VIGNON">
-          <button class="styled" type="button">Download</button>
-        </a>
+    <h5>Download my CV :<h5>        
+      <a href="cv-pdf/CV_VIGNON.pdf" target="_blank" download="CV_VIGNON" class="styled" rel="noopener noreferrer" aria-label="Download Maxime Vignon CV">
+        Download
+      </a>
         <br><br><br>
   </div>
 </body>
