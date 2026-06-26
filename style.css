@@ -112,7 +112,6 @@ body {
 }
 
 .cardAbout p {
-  max-width: 70ch;
   line-height: 1.8;
   font-size: 1.05rem;
 }
@@ -149,6 +148,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  flex-direction:column;
   align-content: center;
   align-items: baseline;
 }
@@ -231,7 +231,6 @@ ol {
 .box4 {
   margin: 25px;
   width: 250px;
-  height: 250px;
   background: #fff;
   border: solid black;
   border-color: black;
@@ -239,7 +238,6 @@ ol {
 }
 
 .box5 {
-  width: 350px;
   border-width: 3px 3px 5px 5px;
   border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
   transform: rotate(-2deg);
@@ -260,6 +258,7 @@ ol {
   justify-content: space-evenly;
   align-content: center;
   align-items: center;
+  flex-direction:column;
 }
 
 /* debut bouton linkedin*/
