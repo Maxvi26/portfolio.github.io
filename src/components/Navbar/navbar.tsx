@@ -3,6 +3,7 @@ import { Menu, X, Moon, Sun } from "lucide-react";
 import "./Navbar.css";
 import { useTranslation } from "react-i18next";
 import { useTheme } from "../../context/ThemeContext";
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -39,19 +40,19 @@ const Navbar = () => {
         <header className="navbar">
             <nav className="navbar-container">
                 {/* Logo */}
-                <a href="/" className="logo">
+                <Link to="/" className="logo">
                     MV
-                </a>
+                </Link>
                 {/* Links */}
                 <ul className={`nav-links ${isOpen ? "active" : ""}`}>
                     {navLinks.map((link) => (
                         <li key={link.name}>
-                            <a
-                                href={link.href}
+                            <Link
+                                to={link.href}
                                 onClick={() => setIsOpen(false)}
                             >
                                 {link.name}
-                            </a>
+                            </Link>
                         </li>
                     ))}
                 </ul>

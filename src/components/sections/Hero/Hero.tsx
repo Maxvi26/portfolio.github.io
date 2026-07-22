@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Download } from "lucide-react";
 import { FaLinkedin } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import TerminalCard from "@/components/ui/TerminalCard";
 import "./Hero.css";
 
@@ -48,12 +49,12 @@ const Hero = () => {
                         animate={{ opacity: 1 }}
                         transition={{ duration: 0.9 }}
                     >
-                        <a
-                            href="/about"
+                        <Link
+                            to="/about"
                             className="primary-button"
                         >
                             {t("hero.seeMore")}
-                        </a>
+                        </Link>
                         <a
                             href="documents/CV_VIGNON.pdf"
                             className="secondary-button"
