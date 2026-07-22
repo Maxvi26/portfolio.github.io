@@ -1,0 +1,28 @@
+.about {
+    padding: 6rem 0;
+}
+
+.about-container {
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:4rem;
+    align-items:center;
+}
+
+.about-content h2 {
+    font-size:3rem;
+    margin-bottom:1.5rem;
+}
+
+.about-content p {
+    line-height:1.8;
+    opacity:.8;
+}
+
+@media(max-width:768px){
+    .about-container{
+        grid-template-columns:1fr;
+    }
+}

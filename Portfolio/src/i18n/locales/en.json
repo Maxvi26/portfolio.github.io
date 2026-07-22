@@ -1,0 +1,82 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "hello": "Hello, I am",
+        "title": "Software Architect & Application Developer",
+        "description": "I build modern and reliable applications by combining software development, test automation, and modern technologies such as C#/.NET and React..",
+        "seeMore": "See more about me",
+        "seeProjects": "View my projects",
+        "status": "Available for opportunities 🚀"
+    },
+    "about": {
+        "title": "About me",
+        "internationale": "international experience",
+        "internationaleinfo": "Australia - International WHV Experience (2025-2026)",
+        "cards": {
+            "software": {
+                "title": "Software Development",
+                "description": "Building applications using C#, .NET, React and TypeScript while following modern development practices."
+            },
+            "industrial": {
+                "title": "Industrial Systems",
+                "description": "Experience with automation, industrial supervision and critical software environments."
+            },
+            "international": {
+                "title": "International Experience",
+                "description": "A professional and personal experience in Australia that improved my adaptability and English skills."
+            }
+        },
+        "experiences": {
+            "title": "Professional Experience",
+            "equans": {
+                "title": "Software Architect & Application Developer Apprenticeship",
+                "description": "Naval Group - Confidential defense system automation project (2 years). Development and maintenance of automated tests in C#. Software validation, debugging, and issue resolution. Technical documentation writing and updating. Collaboration with engineering and project management teams."
+            },
+            "stage": {
+                "title": "Industrial IT Internship",
+                "description": "Messer - CO₂ purification and analysis project (2 months). Development of industrial SCADA solutions using Ignition. Real-time data acquisition and monitoring. Supervision of CO₂ purification, liquefaction, and analysis processes. Industrial installation performance optimization."
+            }
+        },
+        "educations": {
+            "title": "Education",
+            "epitech": {
+                "title": "Master's Degree in Software Architecture & Application Development"
+            },
+            "iut": {
+                "title": "Bachelor's Degree in Electrical Engineering and Industrial Information Technology (DUT GEII)"
+            }
+        }
+    },
+    "projects": {
+        "my": "My",
+        "projects": "projects",
+        "description": "Discover a selection of projects focused on interactive web applications, user experience, and collaborative platforms.",
+        "epicgames": {
+            "description": "Our website offers an interactive platform for both solo and team-based online games. Users can create fully personalized accounts, complete with unique gaming avatars. The platform features a wide variety of games, including poker, quizzes, car racing, Connect Four, drawing games, and many more. Once logged in, you can challenge friends or join matches with players from around the world — all while enjoying an immersive and engaging experience. This site is designed to bring gaming enthusiasts together through a user-friendly interface packed with rich features."
+        },
+        "dashboard": {
+            "description": "Our web project offers full customization of the homepage through a variety of interactive widgets. Users can configure widgets to monitor air quality by entering their city name, get local weather forecasts, and display Spotify playlists or favorite artists by connecting their account. Additionally, the platform allows users to translate text using Google Translate and track cryptocurrency prices by entering the name of the desired coin. This platform is designed to provide a personalized and intuitive user experience, tailored to each user's needs and interests."
+        },
+        "wask": {
+            "description": "Our innovative app, WASK (Who Ask?), is transforming the way you interact with friends — much like BeReal, but with a twist. Every day, you’ll receive a random notification inviting you to log in and choose your game mode: answer a question, snap a photo, or tell a truth. Once you've submitted your response, you'll unlock your friends' answers and try to guess who said what. WASK turns everyday interactions into spontaneous, playful moments of connection and discovery, strengthening your relationships in a fun and engaging way."
+        },
+        "chattech": {
+            "description": "Our project is a modern chat platform that allows users to create an account, manage their profile, and take part in one-on-one or group conversations. Users can create private or public groups and share images and GIFs. The interface is intuitive and responsive, ensuring a smooth and enjoyable user experience across all devices."
+        }
+    },
+    "contact": {
+        "title": "Contact Me",
+        "description": "Have a project idea or a job opportunity? Feel free to reach out to me.",
+        "email": "My email",
+        "button": "Send Message",
+        "available": "Available",
+        "build": "Ready to build something great together?",
+        "titleJob": "Software Architect & Application Developer",
+        "availability": "Available for opportunities in Marseille and remote worldwide. The internet has no borders !"
+    }
+}

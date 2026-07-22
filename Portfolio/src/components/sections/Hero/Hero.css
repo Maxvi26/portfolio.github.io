@@ -1,0 +1,168 @@
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.hero-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    padding: 2rem;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-intro {
+    font-size: 1.1rem;
+    color: #6366f1;
+}
+
+.hero h1 {
+    font-size: clamp(3rem, 6vw, 5rem);
+    line-height: 1;
+    letter-spacing: -3px;
+    margin: .5rem 0;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    opacity: .8;
+    margin-bottom: 1.5rem;
+}
+
+.hero-description {
+    max-width: 550px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    opacity: .75;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.primary-button,
+.secondary-button {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .8rem 1.4rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.primary-button {
+    background: #6366f1;
+    color: white;
+}
+
+.primary-button:hover {
+    transform: translateY(-3px);
+}
+
+.secondary-button {
+    border: 1px solid rgba(128, 128, 128, .3);
+    color: inherit;
+}
+
+.secondary-button:hover {
+    background: rgba(128, 128, 128, .1);
+}
+
+.hero-socials {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.hero-socials a {
+    color: inherit;
+    opacity: .7;
+    transition: .3s;
+}
+
+.hero-socials a:hover {
+    opacity: 1;
+    color: #6366f1;
+}
+
+
+/* Terminal */
+.hero-terminal {
+    background: #111;
+    color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, .2);
+}
+
+.terminal-header {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 0 1rem;
+    background: #1c1c1c;
+}
+
+.terminal-header span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #777;
+}
+
+.terminal-body {
+    padding: 2rem;
+    font-family: monospace;
+    line-height: 2;
+}
+
+.terminal-body span {
+    color: #22c55e;
+}
+
+
+.terminal-result {
+    opacity: .7;
+    padding-left: 1rem;
+}
+
+
+/* Dark mode */
+.dark .hero-terminal {
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, .5);
+}
+
+
+/* Responsive */
+@media(max-width:900px) {
+    .hero-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .hero-description {
+        margin: auto;
+    }
+
+    .hero-buttons,
+    .hero-socials {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "navbar": {
+        "home": "Accueil",
+        "about": "À propos",
+        "projects": "Projets",
+        "contact": "Contact"
+    },
+    "hero": {
+        "hello": "Bonjour, Je suis",
+        "title": "Architecte logiciel et développeur d'applications",
+        "description": "Je développe des applications fiables en combinant développement logiciel, automatisation des tests et technologies modernes comme C#/.NET et React.",
+        "seeMore": "En savoir plus",
+        "seeProjects": "Voir mes projets",
+        "status": "Ouvert aux opportunités 🚀"
+    },
+    "about": {
+        "title": "À propos de moi",
+        "internationale": "experience internationale",
+        "internationaleinfo": "Australie - Expérience internationale en PVT (2025-2026)",
+        "description": "Développeur logiciel orienté informatique industrielle, spécialisé dans l'automatisation et le développement d'applications en environnements techniques complexes. Reconnu pour ma capacité à m'adapter rapidement et à intervenir sur des projets variés. Une expérience d'un an en Australie m'a permis de renforcer mon anglais et mon aisance dans des environnements internationaux.",
+        "experience": "Diplômé d'EPITECH, j'ai développé mes compétences durant trois années d'alternance chez Equans Digital sur des projets industriels complexes impliquant le développement C#, la validation logicielle et l'automatisation.",
+        "cards": {
+            "software": {
+                "title": "Développement logiciel",
+                "description": "Conception d'applications avec C#, .NET, React et TypeScript en appliquant des bonnes pratiques de développement."
+            },
+            "industrial": {
+                "title": "Systèmes industriels",
+                "description": "Expérience dans l'automatisation, la supervision industrielle et les environnements critiques."
+            },
+            "international": {
+                "title": "Expérience internationale",
+                "description": "Une expérience professionnelle et personnelle en Australie qui m'a permis de développer mon autonomie et mon anglais."
+            }
+        },
+        "experiences": {
+            "title": "Expériences professionnelles",
+
+            "equans": {
+                "title": "Alternance Architecte logiciel et développeur d'application",
+                "description": "Naval Group - Projet confidentiel d'automatisation de systèmes de défense (2 ans) Développement et maintenance de tests automatisés en C#. Validation logicielle, débogage et résolution d'anomalies. Rédaction et mise à jour de la documentation technique. Collaboration avec les équipes d'ingénierie et de gestion de projet"
+            },
+
+            "stage": {
+                "title": "Stage en informatique industrielle",
+                "description": "Messer - Projet de purification et d'analyse du CO₂ (2 mois) Développement de solutions de supervision industrielle sous Ignition. Acquisition et supervision des données en temps réel. Supervision de procédés de purification, liquéfaction et analyse du CO₂. Optimisation des performances des installations industrielles."
+            }
+        },
+        "educations": {
+            "title": "Expériences professionnelles",
+
+            "epitech": {
+                "title": "Master Architecte logiciel et développeur d'applications"
+             },
+
+            "iut": {
+                "title": "Diplome Universitaire de Technologie en Génie Electrique et Informatique Industrielle"
+             }
+        }
+    },
+    "projects": {
+        "my": "Mes",
+        "projects": "projets",
+        "description": "Découvrez une sélection de projets axés sur le développement d'applications web interactives, l'expérience utilisateur et les plateformes collaboratives.",
+        "epicgames": {
+            "description": "Notre site web propose une plateforme interactive de jeux en ligne, en solo ou en équipe. Les utilisateurs peuvent créer des comptes entièrement personnalisés, accompagnés d'avatars uniques. La plateforme propose une grande variété de jeux, notamment le poker, des quiz, des courses automobiles, le Puissance 4, des jeux de dessin et bien d'autres. Une fois connecté, vous pouvez défier des amis ou rejoindre des parties avec des joueurs du monde entier — le tout en profitant d'une expérience immersive et captivante. Ce site est conçu pour rassembler les passionnés de jeux grâce à une interface conviviale et riche en fonctionnalités."
+        },
+        "dashboard": {
+            "description": "Notre projet web offre une personnalisation complète de la page d'accueil grâce à divers widgets interactifs. Les utilisateurs peuvent configurer des widgets pour surveiller la qualité de l'air en entrant le nom de leur ville, obtenir des prévisions météorologiques locales et afficher des playlists Spotify ou leurs artistes préférés en connectant leur compte. De plus, la plateforme permet de traduire du texte via Google Traduction et de suivre le cours des cryptomonnaies en saisissant le nom du jeton souhaité. Cette plateforme est conçue pour offrir une expérience utilisateur personnalisée et intuitive, adaptée aux besoins et aux centres d'intérêt de chacun."
+        },
+        "wask": {
+            "description": "Notre application innovante, WASK (Who Ask?), transforme votre façon d'interagir avec vos amis — un peu comme BeReal, mais avec une touche originale. Chaque jour, vous recevez une notification aléatoire vous invitant à vous connecter et à choisir votre mode de jeu : répondre à une question, prendre une photo ou dire une vérité. Une fois votre réponse envoyée, vous débloquez les réponses de vos amis et tentez de deviner qui a dit quoi. WASK transforme les interactions quotidiennes en moments de connexion et de découverte spontanés et ludiques, renforçant vos liens de manière amusante et captivante."
+        },
+        "chattech": {
+            "description": "Notre projet est une plateforme de messagerie moderne qui permet aux utilisateurs de créer un compte, de gérer leur profil et de participer à des conversations individuelles ou de groupe. Les utilisateurs peuvent créer des groupes privés ou publics et partager des images et des GIF. L'interface est intuitive et responsive, garantissant une expérience utilisateur fluide et agréable sur tous les appareils."
+        }
+    },
+    "contact": {
+        "title": "Contactez-moi",
+        "description": "Une idée de projet ? Une opportunité professionnelle ? N'hésitez pas à me contacter.",
+        "email": "Mon email",
+        "button": "Envoyer un message",
+        "available": "Disponible",
+        "build": "Prêt à construire quelque chose de grand ensemble ?",
+        "titleJob": "Architecte logiciel et développeur d'applications",
+        "availability": "Disponible pour des opportunités à Marseille et en télétravail dans le monde entier. Internet n'as pas de frontières !"
+    }
+}
