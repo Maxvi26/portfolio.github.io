@@ -2,6 +2,7 @@ import "./contact.css";
 import { useTranslation } from "react-i18next";
 import { Mail, MapPin, Send } from "lucide-react";
 import { FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
     const { t } = useTranslation();
@@ -40,13 +41,13 @@ const Contact = () => {
                             <Mail size={20} />
                             {t("contact.email")}
                         </a>
-                        <a
-                            href="https:/linkedin.com/in/maximevignon"
+                        <Link
+                            to="https:/linkedin.com/in/maximevignon"
                             target="_blank"
                         >
                             <FaLinkedin size={20} />
                             LinkedIn
-                        </a>
+                        </Link>
                     </div>
                     <div className="location">
                         <MapPin size={18} />
