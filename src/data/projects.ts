@@ -18,7 +18,7 @@ export const projects: Project[] = [
       "ReactJS",
       "MariaDB"
     ],
-    image: "/projects/Epicgames.png",
+    image: `${import.meta.env.BASE_URL}/projects/Epicgames.png`,
     featured: true,
   },
   {
@@ -29,7 +29,7 @@ export const projects: Project[] = [
       "React",
       "MariaDB"
     ],
-    image: "/projects/DashBoard.png",
+    image: `${import.meta.env.BASE_URL}/projects/DashBoard.png`,
     featured: true,
   },
   {
@@ -40,7 +40,7 @@ export const projects: Project[] = [
       "React",
       "Mysql"
     ],
-    image: "/projects/wask.png",
+    image: `${import.meta.env.BASE_URL}/projects/wask.png`,
     featured: true,
   },
   {
@@ -51,7 +51,7 @@ export const projects: Project[] = [
       "React",
       "MongoDB"
     ],
-    image: "/projects/chatTech.png",
+    image: `${import.meta.env.BASE_URL}/projects/chatTech.png`,
     featured: true,
   },
   {
@@ -64,7 +64,7 @@ export const projects: Project[] = [
       "SQL",
       "Industrial IT"
     ],
-    image: "/projects/industrial.png",
+    image: `${import.meta.env.BASE_URL}/projects/industrial.png`,
     featured: false,
   }
 ];

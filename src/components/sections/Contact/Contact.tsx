@@ -13,7 +13,7 @@ const Contact = () => {
                 <div className="contact-profile">
                     <div className="image-wrapper">
                         <img
-                            src="/me1.png"
+                            src={`${import.meta.env.BASE_URL}/me1.png`}
                             alt="Maxime - Software Engineer"
                         />
                         <div className="status">
