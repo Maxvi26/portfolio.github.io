@@ -77,15 +77,10 @@
 
 .encours {
     white-space: nowrap;
-
     font-size: 0.85rem;
-
-    color: #a1a1aa;
-
+    color: #22c55e;
     padding: 0.4rem 0.8rem;
-
     border-radius: 999px;
-
     background: rgba(255, 255, 255, 0.05);
 }
 
