@@ -13,7 +13,7 @@ export const newexperiences: Detail[] = [
     {
         id: 1,
         titleKey: "about.newexperiences.alten.title",
-        organization: "Alten Digital",
+        organization: "ALTEN",
         location: "Marseille, France",
         startDate: "12-2026",
         endDate: "",
