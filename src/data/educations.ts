@@ -5,6 +5,7 @@ export interface Detail {
     location: string;
     startDate: string;
     endDate: string;
+    encours: number;
     descriptionKey?: string;
 }
 
@@ -16,6 +17,7 @@ export const educations: Detail[] = [
         location: "Lyon, France",
         startDate: "09-2022",
         endDate: "07-2025",
+        encours: 0
     },
     {
         id: 2,
@@ -24,5 +26,6 @@ export const educations: Detail[] = [
         location: "Lyon, France",
         startDate: "09-2020",
         endDate: "07-2022",
+        encours: 0
     },
 ];

@@ -3,6 +3,7 @@ import TerminalCard from "@/components/ui/TerminalCard";
 import DetailsCard from "@/components/ui/DetailsCard";
 import { internationales } from "@/data/international";
 import { experiences } from "@/data/experiences";
+import { newexperiences } from "@/data/newexperiences";
 import { educations } from "@/data/educations";
 
 import "./About.css";
@@ -20,6 +21,19 @@ const About = () => {
                     <p>{t("about.description")}</p>
                     <TerminalCard
                         lines={[
+                            {
+                                command: "newexperience",
+                                result: (
+                                    <>
+                                        {newexperiences.map(newexperience => (
+                                            <DetailsCard
+                                                key={newexperience.id}
+                                                detail={newexperience}
+                                            />
+                                        ))}
+                                    </>
+                                )
+                            },
                             {
                                 command: t("about.internationale"),                            
                                 result: (

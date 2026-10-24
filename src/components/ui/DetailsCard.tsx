@@ -22,10 +22,15 @@ const DetailCard = ({ detail }: DetailCardProps) => {
                         {detail.organization}
                     </span>
                 </div>
-
-                <div className="detail-dates">
-                    {detail.startDate} — {detail.endDate}
-                </div>
+                {detail.encours === 1 ? (
+                    <div className="encours">
+                        {detail.startDate} — {t("about.encours")}
+                    </div>
+                ) : (
+                    <div className="detail-dates">
+                        {detail.startDate} — {detail.endDate}
+                    </div>
+                )}
 
             </div>
 

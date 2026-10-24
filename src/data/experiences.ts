@@ -5,6 +5,7 @@ export interface Detail {
     location: string;
     startDate: string;
     endDate: string;
+    encours: number;
     descriptionKey?: string;
 }
 
@@ -16,6 +17,7 @@ export const experiences: Detail[] = [
         location: "Lyon, France",
         startDate: "12-2022",
         endDate: "07-2025",
+        encours: 0,
         descriptionKey: "about.experiences.equans.description",
     },
     {
@@ -25,6 +27,7 @@ export const experiences: Detail[] = [
         location: "Lyon, France",
         startDate: "04-2022",
         endDate: "06-2022",
+        encours: 0,
         descriptionKey: "about.experiences.stage.description",
     },
 ];

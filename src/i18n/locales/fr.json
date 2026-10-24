@@ -15,6 +15,7 @@
     },
     "about": {
         "title": "À propos de moi",
+        "encours": "En cours",
         "internationale": "experience internationale",
         "internationaleinfo": "Australie - Expérience internationale en PVT (2025-2026)",
         "description": "Développeur logiciel orienté informatique industrielle, spécialisé dans l'automatisation et le développement d'applications en environnements techniques complexes. Reconnu pour ma capacité à m'adapter rapidement et à intervenir sur des projets variés. Une expérience d'un an en Australie m'a permis de renforcer mon anglais et mon aisance dans des environnements internationaux.",
@@ -31,6 +32,13 @@
             "international": {
                 "title": "Expérience internationale",
                 "description": "Une expérience professionnelle et personnelle en Australie qui m'a permis de développer mon autonomie et mon anglais."
+            }
+        },
+        "newexperiences": {
+            "title": "Expériences professionnelles",
+            "alten": {
+                "title": "Ingénieur d'affaires",
+                "description": ""
             }
         },
         "experiences": {

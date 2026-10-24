@@ -15,6 +15,7 @@
     },
     "about": {
         "title": "About me",
+        "encours": "Currently",
         "internationale": "international experience",
         "internationaleinfo": "Australia - International WHV Experience (2025-2026)",
         "description": "Industrial software developer specialized in automation and application development within complex technical environments. Recognized for my ability to adapt quickly and work across diverse projects. A one-year experience in Australia strengthened my English fluency and confidence in international settings.",
@@ -31,6 +32,13 @@
             "international": {
                 "title": "International Experience",
                 "description": "A professional and personal experience in Australia that improved my adaptability and English skills."
+            }
+        },
+        "newexperiences": {
+            "title": "Professional Experience",
+            "alten": {
+                "title": "Business engineer",
+                "description": ""
             }
         },
         "experiences": {
